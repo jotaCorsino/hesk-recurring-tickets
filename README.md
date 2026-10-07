@@ -2,6 +2,21 @@
 
 Automação externa em PHP 8.2 para criar tickets recorrentes no HESK OSS 3.7.12. O HESK continua responsável pelos tickets; este projeto mantém a agenda e o histórico em SQLite e chama `hesk_newTicket()` para criar cada ticket.
 
+## Desenvolvimento assistido por IA
+
+Este projeto foi desenvolvido por meio de **programação assistida por IA**, combinando planejamento, revisão e validação humana com o uso do **ChatGPT** e do **Codex** para apoiar arquitetura, implementação, testes, documentação e refinamento do código.
+
+| Item | Informação |
+|---|---|
+| Início do desenvolvimento | 02/10/2026 |
+| Conclusão da primeira versão | 07/10/2026 |
+| Abordagem | Programação assistida por IA |
+| Ferramentas principais | ChatGPT + Codex |
+| Modelo utilizado na maior parte do desenvolvimento | GPT-5.6 Sol |
+| Nível de raciocínio predominante | Alto |
+
+A IA foi utilizada como ferramenta de desenvolvimento assistido; decisões de escopo, homologação, validação funcional e publicação permaneceram sob supervisão humana.
+
 ## Recursos
 
 - Painel Web para listar, criar, editar, ativar e pausar recorrências e consultar execuções.
