@@ -1,0 +1,7 @@
+storage/*.sqlite
+storage/*.sqlite3
+storage/*.db
+storage/*-wal
+storage/*-shm
+storage/orchestrator.lock
+storage/logs/

@@ -1,0 +1,19 @@
+{
+  "enabled": false,
+  "timezone": "UTC",
+  "interval_value": 1,
+  "interval_unit": "year",
+  "next_run_at": "2030-01-01T09:00:00Z",
+  "quantity": 2,
+  "customer_id": 100,
+  "category_id": 10,
+  "priority_name": "Low",
+  "status_id": 0,
+  "owner_id": 20,
+  "openedby_id": 20,
+  "subject": "Preventive Workstation Maintenance",
+  "message": "Example recurring ticket. Replace all IDs and options with values from your HESK installation.",
+  "notify_customer": false,
+  "custom_fields": {},
+  "name": "Example Company - Annual Batch"
+}

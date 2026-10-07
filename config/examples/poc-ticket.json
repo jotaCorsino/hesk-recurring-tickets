@@ -1,0 +1,15 @@
+{
+  "customer_id": 100,
+  "customer_name": "Example requester",
+  "category": 10,
+  "category_name": "Preventive Workstation Maintenance",
+  "priority_name": "Low",
+  "status": 0,
+  "owner": 20,
+  "owner_name": "Example technician",
+  "openedby": 20,
+  "openedby_name": "Example technician",
+  "subject": "[EXAMPLE] Preventive Workstation Maintenance",
+  "message": "Example ticket for a test HESK installation.",
+  "custom_fields": {}
+}
