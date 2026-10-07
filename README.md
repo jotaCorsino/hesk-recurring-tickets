@@ -1,6 +1,25 @@
 # HESK Recurring Tickets
 
-Automação externa em PHP 8.2 para criar tickets recorrentes no HESK OSS 3.7.12. O HESK continua responsável pelos tickets; este projeto mantém a agenda e o histórico em SQLite e chama `hesk_newTicket()` para criar cada ticket.
+Este projeto resolve um problema comum de operação: o HESK não oferece, por padrão, uma forma flexível de programar chamados recorrentes, como manutenções preventivas mensais, trimestrais ou anuais. Em vez de depender de alguém lembrar de abrir esses chamados manualmente, o sistema permite configurar a recorrência uma única vez e automatiza as próximas execuções.
+
+Na prática, ele funciona como uma camada externa ao HESK. Pelo painel Web, é possível definir o que deve ser criado, quando deve acontecer, para quem o chamado será atribuído e quantos tickets devem ser gerados. Um processo agendado verifica periodicamente as recorrências vencidas, utiliza as próprias funções internas do HESK para criar os chamados e registra cada execução em SQLite para manter histórico, rastreabilidade e proteção contra duplicidades.
+
+O HESK continua sendo o sistema principal de tickets. Este projeto apenas acrescenta a automação de recorrências ao redor dele, sem alterar o core do HESK e sem criar tickets por inserção SQL direta.
+
+## Desenvolvimento assistido por IA
+
+Este projeto foi desenvolvido por meio de **programação assistida por IA**, combinando planejamento, revisão e validação humana com o uso do **ChatGPT** e do **Codex** para apoiar arquitetura, implementação, testes, documentação e refinamento do código.
+
+| Item | Informação |
+|---|---|
+| Início do desenvolvimento | 02/10/2026 |
+| Conclusão da primeira versão | 07/10/2026 |
+| Abordagem | Programação assistida por IA |
+| Ferramentas principais | ChatGPT + Codex |
+| Modelo utilizado na maior parte do desenvolvimento | GPT-5.6 Sol |
+| Nível de raciocínio predominante | Alto |
+
+A IA foi utilizada como ferramenta de desenvolvimento assistido; decisões de escopo, homologação, validação funcional e publicação permaneceram sob supervisão humana.
 
 ## Recursos
 
